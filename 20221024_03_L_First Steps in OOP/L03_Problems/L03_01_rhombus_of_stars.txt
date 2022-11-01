@@ -1,0 +1,71 @@
+20221024 - Python OOP - First Steps in OOP
+01 - Rhombus of Stars - judge: https://judge.softuni.org/Contests/Practice/Index/1934#0
+
+
+Create a program that reads a positive integer N as input and prints on the console a rhombus with size n:
+
+
+__________ Test Data __________
+
+
+Input 1:
+-------
+1
+
+
+Output 1:
+--------
+*
+
+
+-------------------------------
+
+
+Input 2:
+-------
+2
+
+
+Output 2:
+--------
+ *
+* *
+ *
+
+
+-------------------------------
+
+
+Input 3:
+-------
+3
+
+
+Output 3:
+--------
+  *
+ * *
+* * *
+ * *
+  *
+
+
+-------------------------------
+
+
+Input 4:
+-------
+4
+
+
+Output 4:
+--------
+   *
+  * *
+ * * *
+* * * *
+ * * *
+  * *
+   *
+
+-------------------------------
