@@ -1,0 +1,32 @@
+20221024 - Python OOP - First Steps in OOP
+03 - Class Book - judge url: https://judge.softuni.org/Contests/Practice/Index/1934#2
+
+
+Create a class called Book.
+It should have an __init__() method that should receive:
+    *) name: string
+    *) author: string
+    *) pages: int
+
+Submit only the class in the judge system.
+
+
+_______________ Test Data ________________
+
+
+Test Code 1:
+-----------
+book = Book("My Book", "Me", 200)
+print(book.name)
+print(book.author)
+print(book.pages)
+
+
+Output 1:
+--------
+My Book
+Me
+200
+
+
+------------------------------------------
