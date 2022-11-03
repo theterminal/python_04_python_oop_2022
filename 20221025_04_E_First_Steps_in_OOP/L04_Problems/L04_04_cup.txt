@@ -1,0 +1,36 @@
+20221025 - Python OOP - First Steps in OOP
+04 - Cup - judge: https://judge.softuni.org/Contests/Compete/Index/1935#3
+
+
+Create a class called Cup.
+Upon initialization, it should receive size (integer) and quantity (an integer representing how much liquid is in it).
+
+The class should have two methods:
+
+    *) fill(quantity) that will increase the amount of liquid in the cup with the given quantity
+       (if there is space in the cup, otherwise ignore).
+
+    *) status() that will return the amount of free space left in the cup.
+
+Submit only the class in the judge system. Do not forget to test your code.
+
+
+_____________ Test Data _______________
+
+
+Test Code 1:
+-----------
+cup = Cup(100, 50)
+print(cup.status())
+cup.fill(40)
+cup.fill(20)
+print(cup.status())
+
+
+Output 1:
+--------
+50
+10
+
+
+---------------------------------------
