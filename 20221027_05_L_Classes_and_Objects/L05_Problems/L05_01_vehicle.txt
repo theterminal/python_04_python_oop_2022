@@ -1,0 +1,31 @@
+20221027 - Python OOP - Classes and Objects
+01 - Vehicle - judge: https://judge.softuni.org/Contests/Practice/Index/1936#0
+
+
+Create a class called Vehicle.
+Upon initialization, it should receive max_speed (integer, optional; 150 by default) and mileage (number).
+Create an instance variable called gadgets - an empty list by default.
+
+
+___________ Test Data ____________
+
+
+Test Code 1:
+-----------
+car = Vehicle(20)
+print(car.max_speed)
+print(car.mileage)
+print(car.gadgets)
+car.gadgets.append('Hudly Wireless')
+print(car.gadgets)
+
+
+Output 1:
+--------
+150
+20
+[]
+['Hudly Wireless']
+
+
+----------------------------------
