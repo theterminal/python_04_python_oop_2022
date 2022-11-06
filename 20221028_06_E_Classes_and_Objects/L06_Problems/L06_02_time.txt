@@ -1,0 +1,57 @@
+20221028 - Python OOP - Classes and Objects
+02 - Time - judge: https://judge.softuni.org/Contests/Compete/Index/1937#1
+
+
+Create a class called Time.
+Upon initialization, it should receive hours, minutes, and seconds (integers).
+The class should also have class attributes max_hours equal to 23, max_minutes equal to 59, and max_seconds equal to 59.
+
+You should also create 3 additional instance methods:
+    *) set_time(hours, minutes, seconds) - updates the time with the new values
+    *) get_time() - returns "{hh}:{mm}:{ss}"
+    *) next_second() - updates the time with one second (use the class attributes for validation) and returns the new time (use the get_time() method)
+
+
+__________ Test Data _____________
+
+
+Test Code 1:
+-----------
+time = Time(9, 30, 59)
+print(time.next_second())
+
+
+Output 1:
+--------
+09:31:00
+
+
+---------------------------------
+
+
+Test Code 2:
+-----------
+time = Time(10, 59, 59)
+print(time.next_second())
+
+
+Output 2:
+--------
+11:00:00
+
+
+---------------------------------
+
+
+Test Code 3:
+-----------
+time = Time(23, 59, 59)
+print(time.next_second())
+
+
+Output 3:
+--------
+00:00:00
+
+
+---------------------------------
