@@ -1,4 +1,6 @@
-from L20221101_08_E_Inheritance.L08_01_person.project import Food
+from project_07_01.food import Food
+
+
 
 
 class Fruit(Food):

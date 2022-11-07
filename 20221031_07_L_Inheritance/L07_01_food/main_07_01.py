@@ -1,4 +1,4 @@
-from L20221101_08_E_Inheritance.L08_01_person.project import Fruit
+from project_07_01.fruit import Fruit
 
 
 f = Fruit('01.12.2022', 'Orange')
