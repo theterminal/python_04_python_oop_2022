@@ -1,0 +1,62 @@
+20221103 - Python - Python OOP - Encapsulation
+03 - Profile - judge url: https://judge.softuni.org/Contests/Practice/Index/1938#2
+
+
+Create a class called Profile.
+Upon initialization, it should receive:
+    *) username: str - the username should be between 5 and 15 characters (inclusive).
+       If it is not, raise a ValueError with the message:
+       "The username must be between 5 and 15 characters."
+
+    *) password: str - the password must be at least 8 characters long;
+       it must contain at least one upper case letter and at least one digit.
+       If it does not, raise a ValueError with the message:
+       "The password must be 8 or more characters with at least 1 digit and 1 uppercase letter."
+
+Hint: Use Getters and Setters to name-mangle them.
+
+Override the __str__() method of the base class, so it returns:
+"You have a profile with username: "{username}" and password: {"*" with the length of password}".
+
+
+___________ Test Data ______________
+
+
+Test Code 1:
+-----------
+profile_with_invalid_password = Profile('My_username', 'My-password')
+
+
+Output 1:
+--------
+ValueError: The password must be 8 or more characters with at least 1 digit and 1 uppercase letter.
+
+
+-----------------------------------
+
+
+Test Code 2:
+-----------
+profile_with_invalid_username = Profile('Too_long_username', 'Any')
+
+
+Output 2:
+--------
+ValueError: The username must be between 5 and 15 characters.
+
+
+-----------------------------------
+
+
+Test Code 3:
+-----------
+correct_profile = Profile("Username", "Passw0rd")
+print(correct_profile)
+
+
+Output 3:
+--------
+You have a profile with username: "Username" and password: ********
+
+
+-----------------------------------
