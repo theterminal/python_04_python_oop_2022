@@ -56,7 +56,7 @@ class Employee(Person):
         return f'Employee is {self.name}, age is {self.age} and salary is {self.salary}'
 
 
-# Test Code 1 (Person's age must be in rage [0: 150], Employee's age must be in range [21: 40])
+# Test Code 1 (Person's age must be in range [0: 150], Employee's age must be in range [21: 40])
 # -------------
 p_1 = Person('Peter', 25)                                 # If age is not within (0: 150] it'll trow an error, if name is not a str also
 e_1 = Employee('George', 22, 1_555)
