@@ -1,0 +1,48 @@
+20221110 - Python - Python OOP - Polymorphism and Abstraction
+04 - Shapes - judge url: https://judge.softuni.org/Contests/Practice/Index/1942#2
+
+
+Create an abstract class Shape with abstract methods calculate_area and calculate_perimeter.
+Create classes:
+    *) Circle (receives radius upon initialization) and
+    *) Rectangle (receives height and width upon initialization),
+that implement those methods (returning the result).
+
+The fields of Circle and Rectangle should be private.
+
+Submit all the classes and your imports in the judge system
+
+
+____________ Test Data _____________
+
+
+Test Code 1:
+-----------
+circle = Circle(5)
+print(circle.calculate_area())
+print(circle.calculate_perimeter())
+
+
+Output 1:
+------
+78.53981633974483
+31.41592653589793
+
+
+------------------------------------
+
+
+Test Code 2:
+-----------
+rectangle = Rectangle(10, 20)
+print(rectangle.calculate_area())
+print(rectangle.calculate_perimeter())
+
+
+Output 2:
+------
+200
+60
+
+
+------------------------------------
