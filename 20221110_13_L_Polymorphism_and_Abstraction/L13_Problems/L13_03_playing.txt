@@ -1,0 +1,44 @@
+20221110 - Python - Python OOP - Polymorphism and Abstraction
+03 - Playing - judge url: https://judge.softuni.org/Contests/Practice/Index/1942#1
+
+
+Create a function called start_playing which will receive an instance and will return its play() method.
+Submit only the start_playing function in the judge system
+
+
+____________ Test Data _______________
+
+
+Test Code 1:
+-----------
+class Guitar:
+    def play(self):
+        return "Playing the guitar"
+
+guitar = Guitar()
+print(start_playing(guitar))
+
+
+Output 1:
+--------
+Playing the guitar
+
+--------------------------------------
+
+
+Test Code 2:
+-----------
+class Children:
+    def play(self):
+        return "Children are playing"
+
+children = Children()
+print(start_playing(children))
+
+
+Output 2:
+--------
+Children are playing
+
+
+--------------------------------------
