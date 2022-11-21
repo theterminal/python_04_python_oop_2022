@@ -1,5 +1,5 @@
 # 20221115 - Python - Python OOP - SOLID
-# 01 - Worker
+# 01 - Workers
 
 
 from abc import ABC, abstractmethod
