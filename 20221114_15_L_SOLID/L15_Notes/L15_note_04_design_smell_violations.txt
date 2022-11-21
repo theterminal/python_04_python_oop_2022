@@ -1,0 +1,8 @@
+20221114 - Python - Python OOP - SOLID
+Note 04 - Design Smell Violations
+
+
+    *) If the code is checking the type of class
+    *) Overridden methods change their behavior
+    *) Override a method of the superclass by an empty method
+    *) Base class depends on its subtypes
