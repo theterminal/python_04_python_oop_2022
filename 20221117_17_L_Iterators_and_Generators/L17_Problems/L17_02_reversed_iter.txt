@@ -1,0 +1,29 @@
+20221117 - Python - Python OOP - Iterators and Generators
+02 - Reverse Iter - judge url: https://judge.softuni.org/Contests/Practice/Index/1944#1
+
+
+Create a class called reverse_iter which should receive an iterable upon initialization.
+Implement the __iter__ and __next__ methods, so the iterator returns the items of the iterable in reversed order.
+
+Note: Submit only the class in the judge system
+
+
+____________ Test Data ____________
+
+
+Test Code 1:
+-----------
+reversed_list = reverse_iter([1, 2, 3, 4])
+for item in reversed_list:
+    print(item)
+
+
+Output:
+------
+4
+3
+2
+1
+
+
+-----------------------------------
