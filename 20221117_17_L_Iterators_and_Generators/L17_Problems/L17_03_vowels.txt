@@ -1,0 +1,31 @@
+20221117 - Python - Python OOP - Iterators and Generators
+03 - Vowels - judge url: https://judge.softuni.org/Contests/Practice/Index/1944#2
+
+
+Create a class called vowels, which should receive a string.
+Implement the __iter__ and __next__ methods, so the iterator returns only the vowels from the string.
+
+Note: Submit only the class in the judge system
+
+
+__________ Test Data ___________
+
+
+Test Code 1:
+-----------
+my_string = vowels('Abcedifuty0o')
+for char in my_string:
+    print(char)
+
+
+Output:
+------
+A
+e
+i
+u
+y
+o
+
+
+--------------------------------
