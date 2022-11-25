@@ -1,0 +1,37 @@
+20221118 - Python - Python OOP - Iterators and Generators
+08 - Prime Numbers - judge url: https://judge.softuni.org/Contests/Compete/Index/1945#7
+
+
+Create a generator function called get_primes() which should receive a list of integer numbers and return a list containing only the prime numbers from the initial list.
+You can learn more about prime numbers from here(https://www.mathopenref.com/prime-number.html)
+
+Note: Submit only the function in the judge system
+
+
+____________ Test Data _______________
+
+
+Test Code 1:
+-----------
+print(list(get_primes([2, 4, 3, 5, 6, 9, 1, 0])))
+
+
+Output 1:
+--------
+[2, 3, 5]
+
+
+--------------------------------------
+
+
+Test Code 2:
+-----------
+print(list(get_primes([-2, 0, 0, 1, 1, 0])))
+
+
+Output 2:
+--------
+[]
+
+
+---------------------------------------
