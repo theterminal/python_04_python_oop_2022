@@ -1,0 +1,44 @@
+20221118 - Python - Python OOP - Iterators and Generators
+02 - Dictionary Iterator - judge url: https://judge.softuni.org/Contests/Compete/Index/1945#1
+
+
+Create a class called dictionary_iter.
+Upon initialization, it should receive a dictionary object.
+Implement the iterator to return each key-value pair of the dictionary as a tuple of two elements (the key and the value).
+
+Note: Submit only the class in the judge system
+
+
+____________ Test Data _____________
+
+
+Test Code 1:
+-----------
+result = dictionary_iter({1: "1", 2: "2"})
+for x in result:
+    print(x)
+
+
+Output 1:
+--------
+(1, '1')
+(2, '2')
+
+
+------------------------------------
+
+
+Test Code 2:
+-----------
+result = dictionary_iter({"name": "Peter", "age": 24})
+for x in result:
+    print(x)
+
+
+Output 2:
+--------
+("name", "Peter")
+("age", 24)
+
+
+------------------------------------
