@@ -1,0 +1,53 @@
+20221118 - Python - Python OOP - Iterators and Generators
+01 - Take Skip - judge url: https://judge.softuni.org/Contests/Compete/Index/1945#0
+
+
+Create a class called take_skip.
+Upon initialization, it should receive a step (int) and a count (int).
+Implement the __iter__ and __next__ functions.
+The iterator should return the count numbers (starting from 0) with the given step.
+For more clarification, see the examples:
+
+Note: Submit only the class in the judge system
+
+
+____________ Test Data ____________
+
+
+Test Code 1:
+-----------
+numbers = take_skip(2, 6)
+for number in numbers:
+    print(number)
+
+
+Output 1:
+--------
+0
+2
+4
+6
+8
+10
+
+
+-----------------------------------
+
+
+Test Code 2:
+-----------
+numbers = take_skip(10, 5)
+for number in numbers:
+    print(number)
+
+
+Output 2:
+--------
+0
+10
+20
+30
+40
+
+
+-----------------------------------
