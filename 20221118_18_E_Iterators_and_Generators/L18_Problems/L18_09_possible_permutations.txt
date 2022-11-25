@@ -1,0 +1,42 @@
+20221118 - Python - Python OOP - Iterators and Generators
+09 - Possible Permutations - judge url: https://judge.softuni.org/Contests/Compete/Index/1945#8
+
+
+Create a generator function called possible_permutations() which should receive a list and
+return lists with all possible permutations between its elements.
+
+Note: Submit only the function in the judge system
+
+
+____________ Test Data ____________
+
+
+Test Code 1:
+-----------
+[print(n) for n in possible_permutations([1, 2, 3])]
+
+
+Output 1:
+--------
+[1, 2, 3]
+[1, 3, 2]
+[2, 1, 3]
+[2, 3, 1]
+[3, 1, 2]
+[3, 2, 1]
+
+
+----------------------------------
+
+
+Test Code 2:
+-----------
+[print(n) for n in possible_permutations([1])]
+
+
+Output 2:
+--------
+[1]
+
+
+----------------------------------
