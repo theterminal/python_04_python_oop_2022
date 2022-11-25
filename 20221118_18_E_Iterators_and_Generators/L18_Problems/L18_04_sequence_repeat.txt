@@ -1,0 +1,39 @@
+20221118 - Python - Python OOP - Iterators and Generators
+04 - Sequence Repeat - judge url: https://judge.softuni.org/Contests/Compete/Index/1945#3
+
+
+Create a class called sequence_repeat which should receive a sequence and a number upon initialization.
+Implement an iterator to return the given elements, so they form a string with a length - the given number.
+If the number is greater than the number of elements, then the sequence repeats as necessary.
+
+For more clarification, see the examples:
+
+
+_____________ Test Data ____________
+
+
+Test Code 1:
+-----------
+result = sequence_repeat('abc', 5)
+for item in result:
+    print(item, end ='')
+
+
+Output 1:
+--------
+
+
+------------------------------------
+
+
+Test Code 2:
+-----------
+abcab
+
+
+Output 2:
+--------
+I L
+
+
+-----------------------------------
