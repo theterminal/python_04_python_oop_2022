@@ -1,0 +1,45 @@
+20221122 - Python - Python OOP - Decorators
+01 - Logged - judge url: https://judge.softuni.org/Contests/Compete/Index/1947#0
+
+
+Create a decorator called logged.
+It should return the name of the function that is being called and its parameters.
+It should also return the result of the execution of the function being called.
+See the examples for more clarification.
+
+
+____________ Test Data ______________
+
+
+Test Code 1:
+-----------
+@logged
+def func(*args):
+    return 3 + len(args)
+print(func(4, 4, 4))
+
+
+Output 1:
+--------
+you called func(4, 4, 4)
+it returned 6
+
+
+-------------------------------------
+
+
+Test Code 2:
+-----------
+@logged
+def sum_func(a, b):
+    return a + b
+print(sum_func(1, 4))
+
+
+Output 2:
+--------
+you called sum_func(1, 4)
+it returned 5
+
+
+------------------------------------
