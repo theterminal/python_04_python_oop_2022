@@ -1,0 +1,40 @@
+20221121 - Python - Python OOP - Decorators
+02 - Vowel Filter - judge url: https://judge.softuni.org/Contests/Practice/Index/1946#1
+
+
+Having the following code:
+
+
+----------------------------------
+
+
+def vowel_filter(function):
+    def wrapper():
+        # TODO: Implement
+
+    return wrapper
+
+
+----------------------------------
+
+
+Complete the code, so it works as expected:
+
+
+__________ Test Data _____________
+
+
+Test Code 1:
+-----------
+@vowel_filter
+def get_letters():
+    return ["a", "b", "c", "d", "e"]
+
+print(get_letters())
+
+
+Output 1:
+--------
+
+
+----------------------------------
