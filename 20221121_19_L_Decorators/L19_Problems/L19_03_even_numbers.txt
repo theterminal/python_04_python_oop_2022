@@ -1,0 +1,39 @@
+20221121 - Python - Python OOP - Decorators
+03 - Even Numbers - judge url: https://judge.softuni.org/Contests/Practice/Index/1946#2
+
+
+Having the following code:
+
+
+---------------------------------
+
+
+def even_numbers(function):
+    def wrapper(numbers):
+        # TODO: Implement
+    return wrapper
+
+
+---------------------------------
+
+
+Complete the code, so it works as expected.
+
+
+__________ Test Data _____________
+
+
+Test Code 1:
+-----------
+@even_numbers
+def get_numbers(numbers):
+    return numbers
+print(get_numbers([1, 2, 3, 4, 5]))
+
+
+Output 1:
+--------
+[2, 4]
+
+
+----------------------------------
