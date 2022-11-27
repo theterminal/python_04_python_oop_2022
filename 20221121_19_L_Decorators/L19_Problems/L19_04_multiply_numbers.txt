@@ -1,0 +1,67 @@
+20221121 - Python - Python OOP - Decorators
+04 - Multiply Numbers - judge url: https://judge.softuni.org/Contests/Practice/Index/1946#3
+
+
+Having the following code:
+
+
+--------------------------------
+
+
+def multiply(times):
+    def decorator(function):
+        # TODO: Implement
+    return decorator
+
+
+--------------------------------
+
+
+Complete the code, so it works as expected.
+
+
+____________ Test Data _______________
+
+
+Test Code 1:
+-----------
+@multiply(3)
+def add_ten(number):
+    return number + 10
+
+print(add_ten(3))
+
+
+Output 1:
+--------
+39
+
+
+Comment 1:
+---------
+First, we add 3 to 10 = 13, and then we multiply the result by 3: 13 * 3 = 39
+
+
+---------------------------------------
+
+
+Test Code 2:
+-----------
+@multiply(5)
+def add_ten(number):
+    return number + 10
+
+print(add_ten(6))
+
+
+Output 2:
+--------
+80
+
+
+Comment 2:
+---------
+(6 + 10) * 5 = 80
+
+
+----------------------------------------
