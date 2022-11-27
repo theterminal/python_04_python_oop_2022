@@ -1,0 +1,37 @@
+20221121 - Python - Python OOP - Decorators
+01 - Number Increment - judge url: https://judge.softuni.org/Contests/Practice/Index/1946#0
+
+
+Having the following code:
+
+
+------------------------------------------
+
+
+def number_increment(numbers):
+    def increase():
+        # TODO: Implement
+
+    return increase()
+
+
+------------------------------------------
+
+
+Complete the code, so it works as expected.
+
+
+__________ Test Data ___________
+
+
+Test Code 1:
+-----------
+print(number_increment([1, 2, 3]))
+
+
+Output 1:
+--------
+[2, 3, 4]
+
+
+--------------------------------
