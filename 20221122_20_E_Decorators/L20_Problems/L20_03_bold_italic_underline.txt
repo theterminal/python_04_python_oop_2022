@@ -1,0 +1,57 @@
+20221122 - Python - Python OOP - Decorators
+03 - Bold, Italic, Underline - judge url: https://judge.softuni.org/Contests/Compete/Index/1947#2
+
+
+Create three decorators:
+	make_bold,
+	make_italic,
+	make_underline,
+
+which will have to wrap a text returned from a function in
+
+	<b></b>,
+	<i></i>  and
+	<u></u>
+
+respectively.
+
+
+___________ Test Data ___________
+
+
+Test Code 1:
+-----------
+@make_bold
+@make_italic
+@make_underline
+def greet(name):
+    return f"Hello, {name}"
+
+print(greet("Peter"))
+
+
+Output 1:
+--------
+<b><i><u>Hello, Peter</u></i></b>
+
+
+--------------------------------
+
+
+Test Code 2:
+-----------
+@make_bold
+@make_italic
+@make_underline
+def greet_all(*args):
+    return f"Hello, {', '.join(args)}"
+
+print(greet_all("Peter", "George"))
+
+
+Output 2:
+--------
+<b><i><u>Hello, Peter, George</u></i></b>
+
+
+--------------------------------
