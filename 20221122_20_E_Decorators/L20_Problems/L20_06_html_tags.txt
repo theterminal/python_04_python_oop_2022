@@ -1,0 +1,43 @@
+20221122 - Python - Python OOP - Decorators
+06 - HTML tags - judge url: https://judge.softuni.org/Contests/Compete/Index/1947#5
+
+
+Create a decorator called tags.
+It should receive an HTML tag as a parameter, wrap the result of a function with the given tag and return the new result.
+
+For more clarification, see the examples below
+
+
+_______________ Test Data _______________
+
+
+Test Code 1:
+-----------
+@tags('p')
+def join_strings(*args):
+    return "".join(args)
+print(join_strings("Hello", " you!”))
+
+
+Output 1:
+--------
+<p>Hello you!</p>
+
+
+------------------------------------------
+
+
+Test Code 2:
+-----------
+@tags('h1')
+def to_upper(text):
+    return text.upper()
+print(to_upper(‘hello'))
+
+
+Output 2:
+--------
+<h1>HELLO</h1>
+
+
+-----------------------------------------
