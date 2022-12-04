@@ -1,6 +1,7 @@
 from project.person import Person
 from project.child import Child
 
+
 person = Person("Peter", 25)
 child = Child("Peter Junior", 5)
 print(person.name)
