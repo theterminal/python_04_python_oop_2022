@@ -29,3 +29,11 @@ class ComputerStoreApp:
                 return f'{computer} sold for {client_budget}$.'
 
         raise Exception("Sorry, we don't have a computer for you.")
+
+
+# _____________ Test Code ________________
+
+
+computer_store = ComputerStoreApp()
+print(computer_store.build_computer("Laptop", "Apple", "Macbook", "Apple M1 Pro", 64))
+print(computer_store.sell_computer(10000, "Apple M1 Pro", 32))
