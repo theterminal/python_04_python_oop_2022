@@ -28,7 +28,7 @@ class F1SeasonApp:
         return f'Red Bull: {red_bull_revenue}. Mercedes: {mercedes_revenue}. {head_team} is ahead at the {race_name} race.'
 
 
-from project.f1_season_app import F1SeasonApp
+# from project import F1SeasonApp
 
 f1_season = F1SeasonApp()
 
