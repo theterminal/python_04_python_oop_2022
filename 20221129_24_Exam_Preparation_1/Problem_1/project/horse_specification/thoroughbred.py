@@ -8,7 +8,10 @@ class Thoroughbred(Horse):
         super().__init__(name, speed)
 
     def train(self):
+        # ______________ block 1 _______________ use block 1 or block 2 ________________
         self.speed = min(self.speed + 3, Thoroughbred.MAX_SPEED)
+
+        # ______________ block 2 _______________ use block 1 or block 2 ________________
         # if self.speed + 3 > Thoroughbred.MAX_SPEED:
         #     self.speed = Thoroughbred.MAX_SPEED
         # else:

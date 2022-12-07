@@ -1,5 +1,6 @@
 from project.horse_race import HorseRace
 from project.horse_specification.appaloosa import Appaloosa
+from project.horse_specification.horse import Horse
 from project.horse_specification.thoroughbred import Thoroughbred
 from project.jockey import Jockey
 
@@ -18,6 +19,13 @@ class HorseRaceApp:
     def add_horse(self, horse_type: str, horse_name: str, horse_speed: int):
         if horse_name in [h.name for h in self.horses]:
             raise Exception(f'Horse {horse_name} has been already added!')
+
+        # if horse_type == 'Appaloosa':
+        #     self.horses.append(Appaloosa(horse_name, horse_speed))
+        #     return f'{horse_type} horse {horse_name} is added.'
+        # elif horse_type == 'Thoroughbred':
+        #     self.horses.append(Thoroughbred(horse_name, horse_speed))
+        #     return f'{horse_type} horse {horse_name} is added.'
 
         if horse_type in self.HORSE_TYPES_CLASSES_REF:
             self.horses.append(self.HORSE_TYPES_CLASSES_REF[horse_type](horse_name, horse_speed))
