@@ -1,8 +1,5 @@
 # 20221024 - Python OOP - First Steps in OOP
-# Notes 02
-
-
-print('\n__________ keyword "global" ____________\n')
+# Notes 04 - Keyword "global"
 
 
 def f():
@@ -17,19 +14,18 @@ def f_2():
 
 
 num = 42
-
 print(num)
+
 f()
 print(num)
+
 f_2()
 print(num)
 
 
 """
 
-
 When 'global' keyword is used, the variable 'num' initialized out of the function's scope is accessible inside the
 function/s.
-
 
 """
