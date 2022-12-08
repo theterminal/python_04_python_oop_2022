@@ -1,5 +1,5 @@
 # 20221024 - Python OOP - First Steps in OOP
-# Notes 03
+# Note 06 - Arguments attributes in class
 
 
 class Book:
