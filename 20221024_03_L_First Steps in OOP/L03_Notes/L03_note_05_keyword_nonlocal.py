@@ -1,8 +1,5 @@
 # 20221024 - Python OOP - First Steps in OOP
-# Notes 03
-
-
-print('\n__________ keyword "nonlocal" ____________\n')
+# Note 05 - Keyword "nonlocal"
 
 
 def f_1():
@@ -10,6 +7,7 @@ def f_1():
     print(text, f'- From f_1()')
 
     def f_2():
+
         def f_3():
             nonlocal text
             text = 'Moscow'
