@@ -3,10 +3,12 @@
 
 
 """
+
 Used to show that the variable should not be accessed outside the class
 
 Formula for outside access: _ClassName__MethodName
 Formula for outside access: _ClassName__AttributeName
+
 """
 
 
