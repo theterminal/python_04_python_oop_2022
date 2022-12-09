@@ -18,5 +18,4 @@ class GrandChild(SecondChild, FirstChild):
     pass
 
 
-print(GrandChild.mro())
-# [<class '__main__.GrandChild'>, <class '__main__.SecondChild'>, <class '__main__.FirstChild'>, <class '__main__.Parent'>, <class 'object'>]
+print(GrandChild.mro())         # [<class '__main__.GrandChild'>, <class '__main__.SecondChild'>, <class '__main__.FirstChild'>, <class '__main__.Parent'>, <class 'object'>]
