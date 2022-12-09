@@ -16,5 +16,5 @@ class C(A, B):
 
 
 c = C()
-print(c.f_a())
-print(c.f_b())
+print(c.f_a())                      # f from A
+print(c.f_b())                      # f from B
