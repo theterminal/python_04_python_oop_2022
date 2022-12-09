@@ -3,10 +3,12 @@
 
 
 """
+
 The "pythonic" way of defining getters and setters is using properties.
 By defining properties, you can change the internal implementation of a class without affecting the program.
 
 Mainly setters and getters are used when data validation is needed!
+
 """
 
 
