@@ -13,7 +13,8 @@ class Mammal:
     def make_sound(self):
         return f'{self.name} makes {self.sound}'
 
-    def get_kingdom(self):
+    @staticmethod
+    def get_kingdom():
         return Mammal.__kingdom
 
     def info(self):
