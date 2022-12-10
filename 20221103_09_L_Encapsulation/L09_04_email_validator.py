@@ -31,6 +31,7 @@ class EmailValidator:
 mails = ["gmail", "softuni"]
 domains = ["com", "bg"]
 email_validator = EmailValidator(6, mails, domains)
+
 print(email_validator.validate("borasam777@gmail.com"))
 print(email_validator.validate("borasam777@gmail.net"))
 print(email_validator.validate("borasam777@abv.net"))
