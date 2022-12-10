@@ -31,18 +31,19 @@ class Profile:
         return f'You have a profile with username: "{self.username}" and password: {len(self.__password) * "*"}'
 
 
-# print('\n_______ Test Code 1 _______\n')
+print('\n_______ Test Code 1 _____ uncomment the line bellow to see the error _____\n')
 # profile_with_invalid_password = Profile('My_username', 'My-password')
 
 
-# print('\n_______ Test Code 2 _______\n')
+print('\n_______ Test Code 2 _____ uncomment the line bellow to see the error _____\n')
 # profile_with_invalid_username = Profile('Too_long_username', 'Any')
 
 
-# print('\n_______ Test Code 3 _______\n')
-# correct_profile = Profile("Username", "Passw0rd")
-# print(correct_profile)
+print('\n_______ Test Code 3 _______\n')
+correct_profile = Profile("Username", "Passw0rd")
+print(correct_profile)                                      # You have a profile with username: "Username" and password: ********
 
-# Prints out all available methods on a specific object
+
+print('\n_______ Test Code 4 _____ Prints out all available methods on a specific object ______\n')
 all_methods_of_object = dir(Profile)
 print('\n'.join([x for x in all_methods_of_object]))
