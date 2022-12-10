@@ -1,10 +1,12 @@
 # 20221103 - Python - Python OOP
-# note 01 - Single Underscore (NON-PUBLIC method / variable)
+# Note 01 - Single Underscore (NON-PUBLIC (Protected) method / variable)
 
 
 """
+
 Using a single leading underscore is just a convention.
 A name prefixed with an underscore should be treated as a 'non-public' method / variable
+
 """
 
 
