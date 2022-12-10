@@ -1,10 +1,12 @@
 # 20221103 - Python - Python OOP - Encapsulation
-# note 04 - Getter and Setter Methods (in other languages mainly)
+# Note 04 - Getter and Setter Methods (in other languages mainly)
 
 
 """
+
 Used to access and change the private variables as they are part of the class.
 Mainly setters and getters are used when data validation is needed!
+
 """
 
 
@@ -28,8 +30,9 @@ person = Person('Peter', 25)
 
 # accessing data using class method
 person.info()	                        # Peter
-# 		                                # 25
+# 		                                  25
 
 # changing age using setter
+person.get_age()                        # 25
 person.set_age(26)
 person.get_age()	                    # 26
