@@ -1,5 +1,5 @@
 # 20221103 - Python - Python OOP - Encapsulation
-# note 03 - Name Mangling
+# Note 03 - Name Mangling
 
 
 """
