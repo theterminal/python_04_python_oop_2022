@@ -1,9 +1,11 @@
 # 20221103 - Python - Python OOP - Encapsulation
-# note 08 - Name Mangling a Method
+# Note 08 - Name Mangling a Method
 
 
 """
+
 It is a class method that should only be called from inside the class where it is defined.
+
 """
 
 
