@@ -1,14 +1,16 @@
 # 20221103 - Python - Python OOP - Encapsulation
-# note 10 - Function / Method hasattr()
+# Note 10 - Function / Method hasattr()
 
 
 """
+
 hasattr()
 
 Checks if an attribute exists or not.
 Returns 'True' if an object has the given named attribute and 'False' if it does not
 
 hasattr() takes 2 parameters: Object, Name
+
 """
 
 
