@@ -1,5 +1,5 @@
 # 20221103 - Python - Python OOP - Encapsulation
-# note 06 - Getters and Setters - Example
+# Note 06 - Getters and Setters - Example
 
 
 class Car:
@@ -21,6 +21,6 @@ class Car:
 
 
 red_car = Car(200)
-red_car.drive()                         # driving max speed 200
+red_car.drive()                         # prints out the "driving max speed 200"
 red_car.max_speed = 512                 # changes the speed to 447
-red_car.drive()                         # driving max speed 447
+red_car.drive()                         # prints out "driving max speed 447"
