@@ -1,8 +1,9 @@
 # 20221103 - Python - Python OOP - Encapsulation
-# note 02 - Double Underscore (PRIVATE method / variable)
+# Note 02 - Double Underscore (PRIVATE method / variable)
 
 
 """
+
 When naming an attribute with two leading underscores, it invokes name mangling.
 In Python, mangling is used for attributes that one class does not want subclasses to use.
 Python does not restrict access to such attributes.
@@ -10,6 +11,7 @@ It is still possible to access or modify a variable that is considered "private"
 
 Formula for outside access: _ClassName__MethodName
 Formula for outside access: _ClassName__AttributeName
+
 """
 
 
@@ -23,7 +25,6 @@ class Person:
 
 
 person = Person('Peter', 25)
-
 
 # accessing data using the class method
 person.info()	                                    # I am Peter, 25 years old.
