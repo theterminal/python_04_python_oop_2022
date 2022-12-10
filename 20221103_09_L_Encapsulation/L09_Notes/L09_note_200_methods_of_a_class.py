@@ -1,4 +1,5 @@
 # Get all available methods for a specified class
+# It prints out all available methods on a specific object
 
 
 class TestClass:
@@ -6,6 +7,5 @@ class TestClass:
         pass
 
 
-# Prints out all available methods on a specific object
 all_methods_of_object = dir(TestClass)
 print('\n'.join([x for x in all_methods_of_object]))
