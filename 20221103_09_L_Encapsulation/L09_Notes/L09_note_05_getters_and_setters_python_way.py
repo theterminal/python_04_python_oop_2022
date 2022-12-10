@@ -1,5 +1,5 @@
 # 20221103 - Python - Python OOP - Encapsulation
-# note 05 - Getters and Setters
+# Note 05 - Getters and Setters
 
 
 """
@@ -8,6 +8,10 @@ The "pythonic" way of defining getters and setters is using properties.
 By defining properties, you can change the internal implementation of a class without affecting the program.
 
 Mainly setters and getters are used when data validation is needed!
+
+If an instance attribute has a getter and setter (properties), before the value is assigned in the init it
+will go to the properties and will check the conditions and after that will set it if value meets the conditions
+set in the setter.
 
 """
 
@@ -29,7 +33,7 @@ class Person:
 
 
 person = Person(25)
-print(person.age)  # 25
+print(person.age)                           # 25
 
 person.age = 10
-print(person.age)  # 18
+print(person.age)                           # 18
