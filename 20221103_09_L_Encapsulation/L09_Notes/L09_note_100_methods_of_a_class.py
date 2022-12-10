@@ -6,9 +6,6 @@ import pandas as pd
 print('\n_________ ex. 1 __________\n')
 
 
-df = pd.DataFrame([[10, 20, 30], [100, 200, 300]], columns=['foo', 'bar', 'baz'])
-
-
 def get_methods(object, spacing=50):
     method_list = []
 
@@ -28,6 +25,7 @@ def get_methods(object, spacing=50):
             print(method.ljust(spacing) + ' ' + ' getattr() failed')
 
 
+df = pd.DataFrame([[10, 20, 30], [100, 200, 300]], columns=['foo', 'bar', 'baz'])
 get_methods(df['foo'])
 
 
