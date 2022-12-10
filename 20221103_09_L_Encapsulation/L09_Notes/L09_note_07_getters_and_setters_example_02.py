@@ -1,12 +1,14 @@
 # 20221103 - Python - Python OOP - Encapsulation
-# note 07 - Getters and Setters - Example
+# Note 07 - Getters and Setters - Example
 
 
 """
+
 You should use Python properties to apply rules to an attribute.
 The property decorator is the pythonic way of using getters and setters.
 
 Mainly setters and getters are used when data validation is needed!
+
 """
 
 
