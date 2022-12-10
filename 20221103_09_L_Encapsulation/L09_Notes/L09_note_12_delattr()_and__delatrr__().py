@@ -1,15 +1,17 @@
 # 20221103 - Python - Python OOP - Encapsulation
-# note 12 - Function delattr() and __delatrr__()
+# Note 12 - Function delattr() and __delatrr__()
 
 
 print('\n_________ delattr() _________\n')
 
 
 """
+
 delattr() - deletes an attribute from the object
 If you are accessing the attribute after deleting, it raises AttributeError
 
 The method takes two parameters: Object, Name
+
 """
 
 
@@ -28,10 +30,12 @@ print('\n_________ __delattr__() _________\n')
 
 
 """
+
 Called when an attribute deletion is attempted.
 
 The method takes 1 parameter: The 'Name" of the attribute
 It should only be implemented if del obj.name is meaningful for the object
+
 """
 
 
@@ -43,4 +47,4 @@ class Phone:
 
 phone = Phone()
 phone.color = 'black'
-del phone.color  # 'color' was deleted
+del phone.color                     # 'color' was deleted
