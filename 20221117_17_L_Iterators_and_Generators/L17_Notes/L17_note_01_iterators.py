@@ -3,6 +3,7 @@
 
 
 """
+
 Iterator is simply an object that can be iterated upon.
 An object which will return data, one element at a time.
 
@@ -11,6 +12,7 @@ NOT only those methods but at least those 2.
 
 An object is called iterable if we can get an iterator from it.
 Such are: list, tuple, string, etc...
+
 """
 
 # EXAMPLE iterator:
