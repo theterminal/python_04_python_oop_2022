@@ -6,9 +6,11 @@ from functools import wraps
 
 
 """
+
 Sometimes, we might need to define a decorator that accepts arguments.
 We achieve this by passing the arguments to the wrapper function.
 The arguments will then be passed to the function that is being decorated at call time.
+
 """
 
 
