@@ -3,17 +3,19 @@
 
 
 """
+
 It is bound to the class and not the object of the class.
 It can modify a class state that would apply across all the instances of the class.
-To turn a method into a class method, we add a line with @classmethod in front of the method header.
+To turn a method into a class method, a line with @classmethod in front of the method header must be added.
 
-We generally use class method to create factory methods.
+Class methods are generally used to create factory methods.
 
 Benefits:
 --------
 Simply provide a shortcut for creating new instance objects.
 Ensures correct instance creation of the derived class.
 You could easily follow the Don't Repeat Yourself (DRY) principle using class methods.
+
 """
 
 
@@ -33,5 +35,5 @@ class Pizza:
 pizza_1 = Pizza.pepperoni()
 pizza_2 = Pizza.quattro_formaggi()
 
-print(pizza_1)                                  # newly created instance 'pizza_1'
-print(pizza_2)                                  # newly created instance 'pizza_2'
+print(pizza_1)                                  # newly created instance 'pizza_1' - <__main__.Pizza object at 0x106cf7220>
+print(pizza_2)                                  # newly created instance 'pizza_2' - <__main__.Pizza object at 0x106cf7280>
