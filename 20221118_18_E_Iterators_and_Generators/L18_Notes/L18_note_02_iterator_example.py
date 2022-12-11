@@ -2,7 +2,7 @@
 # Note 02 - Iterator
 
 
-class countdown_iterator:
+class CountdownIterator:
     def __init__(self, count: int):
         self.count = count
 
@@ -16,6 +16,6 @@ class countdown_iterator:
         return self.count + 1
 
 
-iterator = countdown_iterator(10)
+iterator = CountdownIterator(10)
 for item in iterator:
     print(item, end=" ")                           # a b c
