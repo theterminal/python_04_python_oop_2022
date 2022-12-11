@@ -1,5 +1,5 @@
 # 20221107 - Python - Python OOP
-# Note 04 - Class Methods & Static Methods - Example 01
+# Note 06 - Class Methods & Static Methods - Example 02
 
 
 class Validator:
