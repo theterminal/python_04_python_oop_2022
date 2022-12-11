@@ -1,4 +1,5 @@
-# Magic Methods
+# 20221110 - Python - Python OOP
+# Note 3 - Magic Methods
 
 """
 
@@ -12,11 +13,13 @@ __pow__(self, other[, modulo])              **
 """
 
 
-# ------------------ Example overloading __add__() --------------------
+print('\n------------------ Example overloading __add__() --------------------\n')
 
 
 """
+
 If we have a class Purchase and we want to sum all expenses using the + operator, we can override the __add__ method
+
 """
 
 
@@ -28,7 +31,7 @@ class Purchase:
     def __add__(self, other):
         name = f'{self.product_name}, {other.product_name}'
         cost = self.cost + other.cost
-        return Purchase(name, cost)
+        return Purchase(name, cost)                             # returns a new instance of the class 'Purchase'
 
     def __repr__(self):
         return f'{self.product_name}; {self.cost}'
