@@ -1,5 +1,5 @@
 # 20221107 - Python - Python OOP
-# Note 05 - Overriding Using Methods
+# Note 04 - Overriding Using Methods
 
 
 class Person:
@@ -10,11 +10,10 @@ class Person:
         self.name = name
         self.age = age
 
-    # _________ block 1 ___________
+    # _________ block 1 start ___________
     @staticmethod
     def __validate_age(value):
-        if value < Person.min_age or \
-           value > Person.max_age:
+        if value < Person.min_age or value > Person.max_age:
             raise ValueError()
 
     @property
@@ -25,6 +24,7 @@ class Person:
     def age(self, value):
         self.__validate_age(value)
         self.__age = value
+    # _________ block 1 end ___________
 
 
 class Employee(Person):
@@ -35,7 +35,7 @@ class Employee(Person):
         self.name = name
         self.age = age
 
-    # __________ block 2 ___________ overrides all methods bellow compared with block 1 _____________
+    # __________ block 2 start ___________ overrides all methods bellow compared with block 1 _____________
     @staticmethod
     def __validate_age(value):
         if value < Employee.min_age or \
@@ -50,3 +50,4 @@ class Employee(Person):
     def age(self, value):
         self.__validate_age(value)
         self.__age = value
+    # _________ block 2 end ___________
