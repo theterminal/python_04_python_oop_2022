@@ -3,9 +3,11 @@
 
 
 """
+
 Decorators are a very powerful and useful tool.
 It allows programmers to modify the behavior of a function or a class.
 Decorators allow us to wrap another function in order to extend the behavior of the wrapped function.
+
 """
 
 
@@ -23,9 +25,11 @@ def decorator_name(func_ref):                            # func_ref is the funct
 
 
 """
+
 Our decorator function takes a function as an argument, so let us define a function and pass it to our decorator.
 We learned earlier that we could assign a function to a variable.
 We'll use that trick to call our decorator function.
+
 """
 
 
@@ -42,8 +46,10 @@ print(decorate)
 
 
 """
+
 However, Python provides a much easier way for us to apply decorators.
 We simply use the @ symbol before the function we would like to decorate.
+
 """
 
 
@@ -75,10 +81,12 @@ print(say_hi.__name__)              # We are losing the original name of the fun
 
 
 """
+
 In the given example, if we try to call the name of the wrapped function the result is "wrapper", 
 and its docstring is lost! See the example above.
 
 To solve this problem, we use a decorator factory as a function decorator when defining a wrapper function.
+
 """
 
 
