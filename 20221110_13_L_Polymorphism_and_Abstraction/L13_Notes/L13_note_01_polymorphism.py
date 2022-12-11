@@ -1,7 +1,9 @@
-# Example of runtime polymorphism. In Python there is NO compile-time polymorphism.
+# 20221110 - Python - Python OOP
+# Note 1 - Example of runtime polymorphism. In Python there is NO compile-time polymorphism.
 
 
 """
+
 Polymorphism is mostly pointed at functionality (methods) and not toward class attributes! It looks the same...
 The names of the methods must be the same in order to talk about polymorphism.
 Abstract methods is type of polymorphism but it is different.
@@ -10,6 +12,7 @@ To expend on it, if you have different classes with same functionalities - that 
 Decorator is a function that works before the function you are calling.
 
 Without polymorphism, we should implement check of the figure before calculations...
+
 """
 
 
