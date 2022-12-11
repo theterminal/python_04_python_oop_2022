@@ -8,7 +8,8 @@ class Pizza:
 
     @classmethod
     def pepperoni(cls):
-        return cls(['tomato sauce', 'parmesan', 'pepperoni'])
+        ingredients = ['tomato sauce', 'parmesan', 'pepperoni']
+        return cls(ingredients)
 
     @classmethod
     def margarita(cls, extra_ingredients: list = None):
@@ -22,10 +23,13 @@ class Pizza:
 
 
 pepperoni = Pizza.pepperoni()
-margarita = Pizza.margarita(['one more extra ingredient'])
+margarita = Pizza.margarita(['extra_ingredient_1', 'extra_added_2'])
 
-print(pepperoni.ingredients)
-print(margarita.ingredients)
+print(pepperoni.ingredients)                                    # ['tomato sauce', 'parmesan', 'pepperoni']
+print(margarita.ingredients)                                    # ['tomato sauce', 'mozzarella', 'extra_ingredient_1', 'extra_added_2']
 
-print(pepperoni.bake)
-print(margarita.bake)
+print(pepperoni.bake)                                           # <bound method Pizza.bake of <__main__.Pizza object at 0x10fb87220>>
+print(margarita.bake)                                           # <bound method Pizza.bake of <__main__.Pizza object at 0x10fb87280>>
+
+print(pepperoni.bake())                                         # baking pizza with ['tomato sauce', 'parmesan', 'pepperoni']
+print(margarita.bake())                                         # baking pizza with ['tomato sauce', 'mozzarella', 'extra_ingredient_1', 'extra_added_2']
