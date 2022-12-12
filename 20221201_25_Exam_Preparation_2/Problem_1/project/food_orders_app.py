@@ -32,7 +32,8 @@ class FoodOrdersApp:
             if meal.name == meal_name:
                 return meal
 
-    def __check_for_order(self, client):
+    @staticmethod
+    def __check_for_order(client):
         if len(client.shopping_cart) == 0:
             raise Exception('There are no ordered meals!')
 
