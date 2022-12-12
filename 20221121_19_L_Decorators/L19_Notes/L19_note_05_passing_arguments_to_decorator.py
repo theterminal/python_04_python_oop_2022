@@ -3,6 +3,7 @@
 
 
 """
+
 So far we've worked with only one parameter passed to the decorator.
 So, decorators that expect arguments...
 
@@ -11,6 +12,7 @@ It is a function that returns a decorator...
 In order to achieve this, we define a decorator maker that accepts arguments.
 Then we define a decorator inside it.
 We then define a wrapper function inside the decorator as we did earlier.
+
 """
 
 
