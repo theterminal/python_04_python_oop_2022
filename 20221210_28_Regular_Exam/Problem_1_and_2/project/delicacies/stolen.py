@@ -1,0 +1,9 @@
+from project.delicacies.delicacy import Delicacy
+
+
+class Stolen(Delicacy):                                                        # 1, 2, 3                  21/50
+    def __init__(self, name: str, price: float, portion: int = 250):
+        super().__init__(name, portion, price)
+
+    def details(self):
+        return f'Stolen {self.name}: 250g - {self.price:.2f}lv.'
