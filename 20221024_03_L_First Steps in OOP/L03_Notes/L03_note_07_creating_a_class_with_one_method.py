@@ -1,5 +1,5 @@
 # 20221024 - Python OOP - First Steps in OOP
-# Note 07 - Creating a class with one method
+# Note 07 - Creating a class with one method inside
 
 
 class Animal:
