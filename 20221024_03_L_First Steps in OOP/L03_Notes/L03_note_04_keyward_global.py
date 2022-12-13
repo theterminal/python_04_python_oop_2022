@@ -1,11 +1,10 @@
 # 20221024 - Python OOP - First Steps in OOP
-# Notes 04 - Keyword "global"
+# Note 04 - Keyword "global"
 
 
-def f():
+def f_1():
     global num
     num += 100
-    print(num)
 
 
 def f_2():
@@ -14,13 +13,13 @@ def f_2():
 
 
 num = 42
-print(num)
+print(num)                              # 42
 
-f()
-print(num)
+f_1()
+print(num)                              # 142
 
 f_2()
-print(num)
+print(num)                              # 1142
 
 
 """
