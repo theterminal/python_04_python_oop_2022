@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 
 
-class Delicacy(ABC):                                                                    # 1,        : 7/50
+class Delicacy(ABC):                                                                        # Structure - 1,      : 7/50
     def __init__(self, name: str, portion: int, price: float):
         self.name = name
         self.portion = portion                                  # portion of a delicacy in grams

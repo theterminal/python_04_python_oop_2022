@@ -1,7 +1,7 @@
 from project.delicacies.delicacy import Delicacy
 
 
-class Stolen(Delicacy):                                                        # 1, 2, 3                  21/50
+class Stolen(Delicacy):                                                               # Structure - 1, 2, 3,       21/50
     def __init__(self, name: str, price: float, portion: int = 250):
         super().__init__(name, portion, price)
 

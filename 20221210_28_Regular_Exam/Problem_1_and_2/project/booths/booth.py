@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 
 
-class Booth(ABC):                                                           # 1, 2, 3, 4                  28/50
+class Booth(ABC):                                                                  # Structure - 1, 2, 3, 4,       28/50
     def __init__(self, booth_number: int,  capacity: int):
         self.booth_number = booth_number
         self.capacity = capacity

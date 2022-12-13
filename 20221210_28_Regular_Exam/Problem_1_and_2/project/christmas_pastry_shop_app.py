@@ -70,38 +70,22 @@ class ChristmasPastryShopApp:                                                   
                 for delicacy in self.delicacies:
                     if delicacy.name == delicacy_name:
                         booth.delicacy_orders.append(delicacy)
-
-        return f'Booth {booth_number} ordered {delicacy_name}.'
+                        return f'Booth {booth_number} ordered {delicacy_name}.'
 
     def leave_booth(self, booth_number: int):                                                   # (x, x, x, 29 of 29) 129/150
         orders = 0
         for booth in self.booths:
             if booth.booth_number == booth_number:
-                for k in booth.delicacy_orders:
-                    orders += k.price
+                for order in booth.delicacy_orders:
+                    orders += order.price
                 orders += booth.price_for_reservation
                 self.income += orders
+
                 booth.price_for_reservation = 0
                 booth.is_reserved = False
                 booth.delicacy_orders = []
-                return f'Booth {booth_number}:' \
+                return f'Booth {booth_number}:\n' \
                        f'Bill: {orders:.2f}lv.'
 
     def get_income(self):
         return f'Income: {self.income:.2f}lv.'
-
-
-# shop = ChristmasPastryShopApp()
-# print(shop.add_delicacy("Gingerbread", "Gingy", 5.20))
-# print(shop.delicacies[0].details())
-# print(shop.add_booth("Open Booth", 1, 30))
-# print(shop.add_booth("Private Booth", 10, 5))
-# print(shop.reserve_booth(30))
-# print(shop.order_delicacy(1, "Gingy"))
-# print(shop.leave_booth(1))
-# print(shop.reserve_booth(5))
-# print(shop.order_delicacy(1, "Gingy"))
-# print(shop.order_delicacy(1, "Gingy"))
-# print(shop.order_delicacy(1, "Gingy"))
-# print(shop.leave_booth(1))
-# print(shop.get_income())
