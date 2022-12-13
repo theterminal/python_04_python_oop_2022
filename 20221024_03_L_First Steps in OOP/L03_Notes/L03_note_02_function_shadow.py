@@ -14,8 +14,8 @@ print(sum([1, 2, 3, 4]))
 
 '''
 
-As is visible from the example the name of our function 'sum' overrides the built-in function sum.
-Not a good idea to do it!
+It is visible from the example above, the name of our function 'sum' overrides the built-in function sum.
+NOT a good idea to do it!
 
 '''
 
