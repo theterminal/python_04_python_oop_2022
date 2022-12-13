@@ -1,5 +1,5 @@
 # 20221024 - Python OOP - First Steps in OOP
-# Notes 01 - Function Scope
+# Note 01 - Function Scope
 
 from math import pi
 
