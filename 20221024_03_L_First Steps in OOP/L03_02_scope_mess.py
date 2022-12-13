@@ -29,14 +29,3 @@ def outer():
 print(x)
 outer()
 print(x)
-
-
-"""
-Output:
-------
-global
-outer: local
-inner: nonlocal
-outer: nonlocal
-global: changed!
-"""
