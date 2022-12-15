@@ -1,5 +1,5 @@
-from project_07_03.person import Person
-from project_07_03.employee import Employee
+from project.person import Person
+from project.employee import Employee
 
 
 class Teacher(Person, Employee):
