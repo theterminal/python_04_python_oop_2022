@@ -1,4 +1,5 @@
 # 20221031 - Python OOP - Inheritance
+# Note 01 - Parents, child inheritance
 
 
 class A:

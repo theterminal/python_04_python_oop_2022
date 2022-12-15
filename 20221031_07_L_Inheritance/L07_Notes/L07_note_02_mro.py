@@ -1,6 +1,5 @@
 # 20221031 - Python OOP - Inheritance
-# MRO
-
+# Note 02 - MRO (Method Resolution Order)
 
 class Parent:
     pass
