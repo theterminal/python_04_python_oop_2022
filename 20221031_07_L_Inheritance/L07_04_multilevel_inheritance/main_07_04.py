@@ -1,4 +1,4 @@
-from project_07_04.sports_car import SportsCar
+from project.sports_car import SportsCar
 
 
 sc = SportsCar()

@@ -1,5 +1,5 @@
-from project_07_02.animal import Animal
-from project_07_02.dog import Dog
+from project.animal import Animal
+from project.dog import Dog
 
 
 animal_1 = Animal()

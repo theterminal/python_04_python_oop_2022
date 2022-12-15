@@ -1,6 +1,6 @@
-from project_07_05.animal import Animal
-from project_07_05.dog import Dog
-from project_07_05.cat import Cat
+from project.animal import Animal
+from project.dog import Dog
+from project.cat import Cat
 
 
 a = Animal()

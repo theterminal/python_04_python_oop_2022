@@ -1,4 +1,4 @@
-from project_07_03.teacher import Teacher
+from project.teacher import Teacher
 
 
 t = Teacher()
