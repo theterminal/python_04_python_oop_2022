@@ -1,4 +1,4 @@
-from project_07_01.fruit import Fruit
+from project.fruit import Fruit
 
 
 f = Fruit('01.12.2022', 'Orange')
