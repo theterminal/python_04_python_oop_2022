@@ -1,4 +1,5 @@
-# Lambda examples
+# 20221028 - Python - Python OOP
+# Note 01 - Lambda examples, next(), filter()
 
 tasks = ['Asen', 'Ivan', 'George', 'Scott Young']
 
